@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	 font-family: "Relaway";
+	 font-weight: 300;
+	 color: #333333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none; /*Подчеркивания */
+	outline: 0;
+}
+
+#head {
+	background: #081769;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+span#head {
+	padding-left: 50px;
+	color: #ffffff;
+}
+
+a#ico {
+	color: #ffffff;
+	padding-left: 6px;
+	font-size: 90%;
+}
+
+.navbar {
+	font-weight: 200;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a.nav-link:hover {
+color: #7b7b7b;
+}
+
+.navbar-brand {
+	font-size: 22px;
+	background: #d1e3ff;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: 200;
+	color: #0f228b;
+}
+
+
+.nav-item {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*
+#headerwrap {
+	background: url(../img/header.jpg) no-repeat center top;
+	margin-top: auto;
+	min-height: 500px;
+	background-attachment: relative;
+	background-position: center center;
+}
+*/
+#txt {
+	color: #f7f7f7;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+.slide_item img {
+	padding-top: 30px;
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+	width: 100%;
+
+}
+
+.slide_item h1, h4 {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+	opacity: 0.4;
+	filter: alpha(Opacity=40);
+	background-color: #000;
+}
+
+.proto-item h5{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	width: 100%;
+}
+
+.slide_item h4 {
+	top: 200px;
+}
+
+.photo_item img {
+		padding-top: 15px;
+		max-width: 25%;
+		max-height: 25%;
+		width: 25%;
+		position: relative;
+		float: left;
+		padding-left: 15px;
+}
+
+.nextb, .prevb {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 0 25px;
+	position: absolute;
+	top: 70%;
+	z-index: 10;
+}
+
+.nextb {
+	right: 10%;
+}
+
+.prevb {
+left: 10%;
+}
+
+#footer {
+	height: 100%;
+	margin-top: 30px;
+	background: #081769;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	float: left;
+}
+
+
+
+
+
+
